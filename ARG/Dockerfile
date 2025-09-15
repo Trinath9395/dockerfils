@@ -3,4 +3,4 @@ ENV course="devops" \
     duration="120" \
     trainer="trinath"
 RUN echo "Hello ${trainer}" > /tmp/devops.txt 
-CMD ["sleep", "100;"]
+CMD ["sleep", "120;"]
